@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/mocha.css" />
+    </head>
+    <body>
+        <div id="mocha">
+        </div>
+        <script src="js/mocha.js">
+                        
+        </script>
+        <script src="js/chai.js">
+                        
+        </script>
+        <script>
+            mocha.ui('bdd');
+            mocha.reporter('html');
+            expect = chai.expect;
+            assert = chai.assert;
+        </script>
+        <script src="js/ekit-util.min.js">
+                
+        </script>
+        <script src="js/js.js">
+                        
+        </script>
+        <script>
+                                              if (window.mochaPhantomJS) {
+                                        mochaPhantomJS.run();
+                                      } else {
+                                        mocha.run();
+                                      }
+        </script>
+    </body>
+
+</html>

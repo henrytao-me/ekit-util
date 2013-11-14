@@ -46,6 +46,7 @@
  * the previous
  * implementation of that method.
  */
+
 (function() {
 
 	// base setup
