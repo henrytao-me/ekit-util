@@ -1,6 +1,6 @@
 {
   "name": "ekit-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ekit util library which support on both server-side and client-side",
   "main": "index.js",
   "scripts": {
