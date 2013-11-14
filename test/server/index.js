@@ -3,18 +3,16 @@ var assert = require("assert");
 
 ////////////////////////////////////////
 // js_extend.js
-
 describe('js_extend.js', function() {
 	describe('String.prototype.replaceAll', function() {
 		it('should exist', function() {
-			assert.notEqual(''.replaceAll, undefined);		
+			assert.notEqual(''.replaceAll, undefined);
 		});
 	});
 });
 
 ////////////////////////////////////////
 // underscore_extend.js
-
 describe('underscore_extend.js', function() {
 	describe('_', function() {
 		it('should exist', function() {
@@ -25,15 +23,14 @@ describe('underscore_extend.js', function() {
 
 ////////////////////////////////////////
 // Class.js
-
 describe('Class.js', function() {
 	describe('Class', function() {
 		it('should exist', function() {
 			assert.notEqual(Class, undefined);
 		});
 	});
-	describe('instance attribute', function(){
-		it('should return "hello moto"', function(){
+	describe('instance attribute', function() {
+		it('should return "hello moto"', function() {
 			var A = Class.extend({
 				hello: 'hello moto'
 			});
@@ -42,5 +39,3 @@ describe('Class.js', function() {
 		});
 	});
 });
-
-
