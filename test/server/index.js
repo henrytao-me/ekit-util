@@ -26,12 +26,12 @@ describe('underscore_extend.js', function() {
 describe('Class.js', function() {
 	describe('Class', function() {
 		it('should exist', function() {
-			assert.notEqual(Class, undefined);
+			assert.notEqual(_.Class, undefined);
 		});
 	});
 	describe('instance attribute', function() {
 		it('should return "hello moto"', function() {
-			var A = Class.extend({
+			var A = _.Class.extend({
 				hello: 'hello moto'
 			});
 			a = new A();
