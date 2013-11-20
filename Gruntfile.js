@@ -19,7 +19,7 @@ module.exports = function(grunt) {
                 banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
             },
             build: {
-                src: ['libs/js_extend.js', 'node_modules/underscore/underscore-min.js', 'libs/underscore_extend.js', 'libs/Class.js'],
+                src: ['libs/js_extend.js', 'node_modules/underscore/underscore-min.js', 'libs/underscore_extend.js', 'libs/Class.js', 'libs/linked.js'],
                 dest: 'build/<%= pkg.name %>.min.js'
             }
         },
